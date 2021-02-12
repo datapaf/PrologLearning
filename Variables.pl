@@ -6,5 +6,5 @@ what_grade(6) :-
 
 what_grade(Other) :-
     Grade is Ohter - 5,
-    format('go to grade ~w', [Grade]).
+    format('go to grade ~d', [Grade]).
     
